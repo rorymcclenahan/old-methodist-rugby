@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id="about" className="font-DIN border-b-2 border-white bg-zinc-900">
+    <div id="about" className="font-DIN border-b-2 border-slate-300 bg-zinc-900">
       <div className="sm:p-10 max-sm:p-1 mx-auto">
         <div className="flex relative md:flex-row max-md:flex-col">
           <div className="lg:w-5/12 m-10 max-w-lg justify-center">

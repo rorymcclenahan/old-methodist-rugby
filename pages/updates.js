@@ -46,7 +46,7 @@ export default function Updates() {
   ];
 
   return (
-    <div id="updates" className="font-DIN border-b-1">
+    <div id="updates" className="font-DIN border-b-2">
       <div className="bg-zinc-900 p-10">
         <div className="flex md:flex-row max-md:flex-col">
           <div className="lg:w-5/12 max-w-lg justify-center">
