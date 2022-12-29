@@ -4,7 +4,7 @@ export default function Header() {
     <div className="p-7 font-DIN">
       <ul className="flex justify-center list-none text-center align-middle text-2xl pl-10 pr-10">
         <li className="flex-auto">
-          <a href="/" className="border-3 border-white border-solid">
+          <a href="#" className="border-3 border-white border-solid">
             <h1 className="text-gray-400 hover:text-white">HOME</h1>
           </a>
         </li>
@@ -19,7 +19,7 @@ export default function Header() {
           </a>
         </li>
         <li className="flex-auto">
-          <a href="/" className="flex justify-center">
+          <a href="#" className="flex justify-center">
             <img width="80" height="80" src="/wesleyan-logo.ico" alt="Wesleyan Logo" />
           </a>
         </li>
