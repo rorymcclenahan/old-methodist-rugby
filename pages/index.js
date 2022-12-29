@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import HomePage from '../pages/home'
 import About from './about'
 import Updates from './updates'
+import Officers from './officers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
       <HomePage />
       <About />
       <Updates />
+      <Officers />
     </>
   )
 }
