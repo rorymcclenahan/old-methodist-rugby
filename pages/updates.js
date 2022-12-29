@@ -1,4 +1,13 @@
 export default function Updates() {
+    const matches = [
+        {"date": "9/24", "opponent": "ECSU", "location": "AWAY", "result": "L", "score": "25-14"},
+        {"date": "10/1", "opponent": "BABSON", "location": "AWAY", "result": "L", "score": "60-3"},
+        {"date": "10/8", "opponent": "TRINITY", "location": "HOME", "result": "L", "score": "27-17"},
+        {"date": "10/15", "opponent": "AMHERST", "location": "HOME", "result": "W", "score": "43-0"},
+        {"date": "10/22", "opponent": "WILLIAMS", "location": "AWAY", "result": "W", "score": "21-0"},
+        {"date": "10/29", "opponent": "UNION", "location": "HOME", "result": "W", "score": "53-17"},
+    ]
+
   return (
     <div id="updates" className="font-DIN border-b-1">
       <div className="bg-zinc-900 p-10">
@@ -10,24 +19,12 @@ export default function Updates() {
             <div className="max-w-lg">
               <h1 className="text-5xl pb-2 pt-5">2022 FALL CALENDAR</h1>
               <ul>
-                <li>
-                  <p className="py-2">9/24 - ECSU, AWAY L, 25-14</p>
-                </li>
-                <li>
-                  <p className="py-2">10/1 - BABSON, AWAY L, 60-3</p>
-                </li>
-                <li>
-                  <p className="py-2">10/8 - TRINITY, HOME L, 27-17</p>
-                </li>
-                <li>
-                  <p className="py-2">10/15 - AMHERST, HOME W, 43-0</p>
-                </li>
-                <li>
-                  <p className="py-2">10/22 - WILLIAMS, AWAY W, 21-0</p>
-                </li>
-                <li>
-                  <p className="py-2">10/29 - UNION, HOME W, 53-17</p>
-                </li>
+                {matches.map((match) => (
+                    <li>
+                        <p className="py-2">{match.date} - {match.opponent}, {match.location} {match.result}, {match.score}</p>
+                    </li>
+                ))}
+                
               </ul>
             </div>
           </div>
